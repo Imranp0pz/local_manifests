@@ -7,6 +7,8 @@
 <remote name="LineageOS" fetch="https://github.com/LineageOS/" />
 <remote name="basamaryan" fetch="https://gitlab.com/basamaryan/" />
  
+ <remove-project name="hardware/lineage/compat" />
+
  <!-- Trees -->
  <project path="prebuilts/clang/host/linux-x86/clang-playground" name="playgroundtc" remote="PixelOS-Devices" revision="16" />
  <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="vantoman" revision="courbet-13" />
@@ -15,5 +17,4 @@
  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" />
  <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="basamaryan" revision="thirteen" />
  
- <remove-project name="hardware/lineage/compat" />
-</manifest>
+ </manifest>

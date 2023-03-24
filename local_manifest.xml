@@ -15,4 +15,5 @@
  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" />
  <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="basamaryan" revision="thirteen" />
  
+ <remove-project name="hardware/lineage/compat" />
 </manifest>

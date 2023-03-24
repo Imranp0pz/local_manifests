@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="imranp0pz" fetch="https://github.com/imranp0pz/" /
+<remote name="imranp0pz" fetch="https://github.com/imranp0pz/" />
 
  <!-- Trees -->
  <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="imranp0pz" revision="tiramisu" />
